@@ -22478,7 +22478,7 @@
         "tags": [
           "font",
           "typeface",
-          "typography",
+          "Qadar",
           "font-family",
           "wysiwyg"
         ],
@@ -22506,7 +22506,7 @@
         ],
         "tags": [
           "ligature",
-          "typography",
+          "Qadar",
           "font"
         ],
         "defaultCode": 59997,
@@ -22515,7 +22515,7 @@
       },
       "attrs": [],
       "properties": {
-        "ligatures": "ligature, typography",
+        "ligatures": "ligature, Qadar",
         "name": "ligature",
         "order": 1803,
         "id": 350,
@@ -22533,7 +22533,7 @@
         ],
         "tags": [
           "ligature",
-          "typography",
+          "Qadar",
           "font"
         ],
         "defaultCode": 59998,
@@ -22542,7 +22542,7 @@
       },
       "attrs": [],
       "properties": {
-        "ligatures": "ligature2, typography2",
+        "ligatures": "ligature2, Qadar2",
         "name": "ligature2",
         "order": 1804,
         "id": 351,
