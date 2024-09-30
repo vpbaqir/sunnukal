@@ -22480,16 +22480,28 @@
           "typeface",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Qadar",
 =======
           "typography",
 >>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
 =======
+=======
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
           "typography",
 =======
           "Qadar",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+<<<<<<< HEAD
 >>>>>>> 78a01b1ad9991b516686dd2c357ffb322fea2e4d
+=======
+=======
+          "Qadar",
+=======
+          "typography",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
           "font-family",
           "wysiwyg"
         ],
@@ -22519,16 +22531,28 @@
           "ligature",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Qadar",
 =======
           "typography",
 >>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
 =======
+=======
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
           "typography",
 =======
           "Qadar",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+<<<<<<< HEAD
 >>>>>>> 78a01b1ad9991b516686dd2c357ffb322fea2e4d
+=======
+=======
+          "Qadar",
+=======
+          "typography",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
           "font"
         ],
         "defaultCode": 59997,
@@ -22539,16 +22563,28 @@
       "properties": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "ligatures": "ligature, Qadar",
 =======
         "ligatures": "ligature, typography",
 >>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
 =======
+=======
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
         "ligatures": "ligature, typography",
 =======
         "ligatures": "ligature, Qadar",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+<<<<<<< HEAD
 >>>>>>> 78a01b1ad9991b516686dd2c357ffb322fea2e4d
+=======
+=======
+        "ligatures": "ligature, Qadar",
+=======
+        "ligatures": "ligature, typography",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
         "name": "ligature",
         "order": 1803,
         "id": 350,
@@ -22568,16 +22604,28 @@
           "ligature",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Qadar",
 =======
           "typography",
 >>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
 =======
+=======
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
           "typography",
 =======
           "Qadar",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+<<<<<<< HEAD
 >>>>>>> 78a01b1ad9991b516686dd2c357ffb322fea2e4d
+=======
+=======
+          "Qadar",
+=======
+          "typography",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
           "font"
         ],
         "defaultCode": 59998,
@@ -22588,16 +22636,28 @@
       "properties": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "ligatures": "ligature2, Qadar2",
 =======
         "ligatures": "ligature2, typography2",
 >>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
 =======
+=======
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
         "ligatures": "ligature2, typography2",
 =======
         "ligatures": "ligature2, Qadar2",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+<<<<<<< HEAD
 >>>>>>> 78a01b1ad9991b516686dd2c357ffb322fea2e4d
+=======
+=======
+        "ligatures": "ligature2, Qadar2",
+=======
+        "ligatures": "ligature2, typography2",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
+>>>>>>> 898ac3dc6b6be24635216dd7fee214ba4b0fb135
         "name": "ligature2",
         "order": 1804,
         "id": 351,
