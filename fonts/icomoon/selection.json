@@ -22479,10 +22479,17 @@
           "font",
           "typeface",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "typography",
 =======
           "Qadar",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+=======
+          "Qadar",
+=======
+          "typography",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
           "font-family",
           "wysiwyg"
         ],
@@ -22511,10 +22518,17 @@
         "tags": [
           "ligature",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "typography",
 =======
           "Qadar",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+=======
+          "Qadar",
+=======
+          "typography",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
           "font"
         ],
         "defaultCode": 59997,
@@ -22524,10 +22538,17 @@
       "attrs": [],
       "properties": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "ligatures": "ligature, typography",
 =======
         "ligatures": "ligature, Qadar",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+=======
+        "ligatures": "ligature, Qadar",
+=======
+        "ligatures": "ligature, typography",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
         "name": "ligature",
         "order": 1803,
         "id": 350,
@@ -22546,10 +22567,17 @@
         "tags": [
           "ligature",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "typography",
 =======
           "Qadar",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+=======
+          "Qadar",
+=======
+          "typography",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
           "font"
         ],
         "defaultCode": 59998,
@@ -22559,10 +22587,17 @@
       "attrs": [],
       "properties": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "ligatures": "ligature2, typography2",
 =======
         "ligatures": "ligature2, Qadar2",
 >>>>>>> b1204c1bc94e0f94621bc445378ec6d8a0fdf5db
+=======
+        "ligatures": "ligature2, Qadar2",
+=======
+        "ligatures": "ligature2, typography2",
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
         "name": "ligature2",
         "order": 1804,
         "id": 351,

@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+=======
+// stylelint-disable declaration-no-important
+
+<<<<<<< HEAD
+// Qadar
+=======
+// Typography
+>>>>>>> dfaba4d7ab5b38fe65b56008a3f5c832e22a3ac8
+
+@mixin text-emphasis-variant($parent, $color) {
+  #{$parent} {
+    color: $color !important;
+  }
+  a#{$parent} {
+    @include hover-focus {
+      color: darken($color, 10%) !important;
+    }
+  }
+}
+>>>>>>> 2791c6d16239ec089d130f450add42c5592c46cb
