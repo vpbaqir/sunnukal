@@ -4,93 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article Title - Topic Listing</title>
+    <title>The Concept of Prophethood in Ahlussunnah</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Far+Far+Fields&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <style>
-        /* Global Styles */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #333; /* Dark gray background */
-            color: #fff; /* White text */
+            font-family: 'Far Far Fields', cursive;
+            background-color: #333; /* Dark background */
+            color: #f7f7f7; /* Light text */
+            transition: background-color 0.5s, color 0.5s; /* Smooth transition */
         }
 
-        /* Article Styles */
         .article {
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
-            background-color: #444; /* Dark gray background */
-            border: 1px solid #555; /* Dark gray border */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Dark shadow */
+            background-color: #444; /* Dark article background */
+            border: 1px solid #555; /* Dark border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: background-color 0.5s, border 0.5s; /* Smooth transition */
         }
 
-        .article h1 {
-            font-size: 24px;
-            font-weight: bold;
-            color: #66CCCC; /* Light blue heading color */
+        .article h1,
+        .article h2 {
+            color: #94ac20; /* Light heading color */
         }
 
-        .article p {
-            font-size: 16px;
-            line-height: 1.5;
-            color: #ccc; /* Light gray text */
+        /* Light Theme */
+        body.light-mode {
+            background-color: #f7f7f7; /* Light background */
+            color: #333; /* Dark text */
         }
 
-        /* Image Styles */
-        .article img {
-            width: 100%;
-            height: auto;
-            margin: 20px 0;
-            border-radius: 10px; /* Rounded corners */
+        .article.light-mode {
+            background-color: #fff; /* Light article background */
+            border: 1px solid #ddd; /* Light border */
         }
 
-        /* Link Styles */
-        a {
-            color: #66CCCC; /* Light blue link color */
-            text-decoration: none;
+        .btn-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: #94ac20; /* Green background */
+            color: white; /* White text */
+            border: none; /* Remove border */
+            transition: background-color 0.3s; /* Smooth transition */
         }
 
-        a:hover {
-            color: #33CCCC; /* Darker light blue link color on hover */
+        .btn-toggle:hover {
+            background-color: #94ac20; /* Darker green on hover */
         }
     </style>
 </head>
 
 <body>
 
-    <!-- Your header code here (from original file) -->
+    <button class="btn btn-toggle" id="themeToggle">
+        <i class="fas fa-moon" id="themeIcon"></i>
+    </button>
 
     <section class="article">
-        <h1>This is an Example Article Title</h1>
+        <h1>The Concept of Prophethood in Ahlussunnah</h1>
 
-        <img src="images/blog-image-1-940x462.jpg" alt="Article Image">
+        <h2>Introduction</h2>
+        <p>Prophethood (Nubuwwah) is one of the central beliefs in Islam, particularly in the Ahlussunnah tradition. Prophets are divinely appointed by Allah to convey His message and guide humanity toward worship, justice, and ethical behavior.</p>
 
-        <p>This is a paragraph of example text that you can replace with your own content. Feel free to
-            add more paragraphs, headings, lists, or any other HTML elements you need to create a
-            comprehensive and informative article.</p>
+        <h2>Definition and Purpose</h2>
+        <p>In Ahlussunnah theology, prophethood is defined as the selection of individuals by Allah to deliver divine revelation. These individuals are chosen for their purity, integrity, and unwavering submission to God. The purpose of prophethood is to provide guidance on matters of faith, morality, and the laws governing life (Shariah). Human reason is seen as insufficient for understanding divine commands fully; thus, prophets serve as intermediaries between Allah and mankind.</p>
 
-        <h2>A Subheading for Your Article</h2>
-
-        <p>You can break up your article into sections with headings and subheadings to make it easier
-            for readers to scan and digest the information. Use descriptive headings that accurately
-            reflect the content of each section.</p>
-
+        <h2>Characteristics of Prophets</h2>
         <ul>
-            <li>You can also add lists</li>
-            <li>To present information in a clear</li>
-            <li>And organized manner</li>
+            <li><strong>Infallibility (Ismah):</strong> Prophets are protected from committing major sins and errors in delivering Allah’s message.</li>
+            <li><strong>Humanity:</strong> Prophets are human beings, not divine, to serve as relatable models for human behavior.</li>
+            <li><strong>Miracles (Mu'jizat):</strong> Prophets often perform miracles as signs of their authenticity and to affirm their prophethood.</li>
         </ul>
 
-        <p>Remember to replace all placeholder content with your own text, images, and styling. Good luck
-            with your article!</p>
+        <h2>Conclusion</h2>
+        <p>The institution of prophethood is fundamental in guiding humanity, and for Ahlussunnah, this culminates with the final prophet, Muhammad (PBUH). He represents the completion of divine guidance, making his life and teachings the final reference for Islamic practice.</p>
     </section>
-
-    <!-- Your footer code here (from original file) -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const body = document.body;
+        const article = document.querySelector('.article');
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+            article.classList.toggle('light-mode');
+
+            // Change the icon based on the theme
+            if (body.classList.contains('light-mode')) {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        });
+    </script>
 </body>
 
 </html>
