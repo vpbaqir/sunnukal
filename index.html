@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>pos web</title>
+	<title>SUNNAH PORT website</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/animate.css">
@@ -22,9 +22,11 @@
 	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 		<div class="container">
 			<a class="navbar-brand d-flex align-items-center" href="#section-home">
-				<img src="images/Screenshot (101)(1)(1).png" alt="Company Logo" width="40" height="40" class="me-2">
-				<span class="company-name">SUNNAH</span>
+				
+				<span   length="12px" height="30" class="company-name">SUNNI'S</span> </span>
+				<img src="images/Firefly -port - font , in rectange, whigt background in simple font 59935.jpg" alt="Company Logo" width="50" height="30">
 			</a>
+			
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -34,13 +36,15 @@
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-portfolio">faith and Standpoint</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">archetype</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
 					
 				</ul>
-				<a href="http://localhost:3000" class="bg-blue-500 text-white font-bold py-2 px-4 rounded">
+				<a href="http://localhost:3000" class="bg-black text-white font-bold py-2 px-4 rounded border border-gray-700 hover:bg-gray-800">
 					SUNNAH AI BOT 
-				  </a>
+				</a>
+				
+				
 				  
 			</div>
 			
@@ -146,7 +150,7 @@ Abu Tha‘labah al-Khashani (may Allah be pleased with him) reported that the Pr
 		<div class="container">
 			<div class="row">
 				<div class="section-heading text-center col-md-12">
-					<h2>Featured <strong>Portfolio</strong></h2>
+					<h2>faith and  <strong>6 Standpoint</strong></h2>
 				</div>
 			</div>
 			<div class="filters">
@@ -359,72 +363,130 @@ Abu Tha‘labah al-Khashani (may Allah be pleased with him) reported that the Pr
 	
 
 	<section class="site-section">
+		<script>
+			// Function to update the like count displayed on the page for a specific review
+			function updateLikeCount(reviewId) {
+				const likeCountElement = document.getElementById(`likeCount${reviewId}`);
+				likeCountElement.innerText = localStorage.getItem(`likeCount${reviewId}`) || 0;
+			}
+	
+			// Function to increment likes for a specific review
+			function incrementLikes(reviewId) {
+				let likeCount = localStorage.getItem(`likeCount${reviewId}`) ? parseInt(localStorage.getItem(`likeCount${reviewId}`)) : 0;
+				likeCount++; // Increment the like count
+				localStorage.setItem(`likeCount${reviewId}`, likeCount); // Store the updated count in localStorage
+				updateLikeCount(reviewId); // Update the displayed count
+			}
+	
+			// Update the like counts when the page loads
+			window.onload = function() {
+				updateLikeCount(1);
+				updateLikeCount(2);
+				updateLikeCount(3);
+				updateLikeCount(4);
+			};
+		</script>
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-md-12">
 					<div class="section-heading text-center">
-						<h2>Client <strong>Testimonial</strong></h2>
+						<h2>Review of <strong>SUNNIBOT</strong></h2>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6">
-
 					<div class="block-47 d-flex mb-5">
 						<div class="block-47-image">
-							<img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid">
+							<img src="images/images (1).jpeg" alt="Image placeholder" class="img-fluid">
 						</div>
-						<blockquote class="block-47-quote">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-							<cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ Inc.</a></cite>
-						</blockquote>
+						<div class="block-47-content">
+							<blockquote class="block-47-quote">
+								<p>&ldquo;What is Ahlusunnah wal Jama?&rdquo;</p>
+							</blockquote>
+							<div class="block-47-answer">
+								<p><strong>Answer:</strong> Ahlusunnah wal Jama refers to the traditionalist and orthodox branch of Islam that emphasizes following the teachings and practices of the Prophet Muhammad and his companions. It is characterized by its adherence to the Sunnah (the way of the Prophet) and consensus (ijma) among scholars.Four Schools of Thought:** Ahlussunnah recognizes four major schools of Islamic jurisprudence (Madhahib): Hanafi, Maliki, Shafi'i, and Hanbali. * **Emphasis on Tawheed:** They believe in the oneness of Allah (Tawheed), affirming that He is the sole creator, sustainer, and worthy of worship. * **Rejection of Bid'ah:** Ahlussunnah discourages and condemns innovations (Bid'ah) in religious matters that were not part of the Prophet's teachings. *</p>
+							</div>
+							<div class="block-47-like d-flex align-items-center">
+								<button class="btn btn-primary me-2" onclick="incrementLikes(1)">
+									<i class="fa fa-thumbs-up"></i> Like
+								</button>
+								<span id="likeCount1">0</span> Likes
+							</div>
+						</div>
 					</div>
-
 				</div>
+	
 				<div class="col-md-6">
-
 					<div class="block-47 d-flex mb-5">
 						<div class="block-47-image">
-							<img src="images/person_2.jpg" alt="Image placeholder" class="img-fluid">
+							<img src="images/istockphoto-1364415631-612x612.jpg" alt="Image placeholder" class="img-fluid">
 						</div>
-						<blockquote class="block-47-quote">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-							<cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ Inc.</a></cite>
-						</blockquote>
+						<div class="block-47-content">
+							<blockquote class="block-47-quote">
+								<p>&ldquo;which is the right path of islam?&rdquo;</p>
+							</blockquote>
+							<div class="block-47-answer">
+								<p><strong>Answer:</strong> Ahlussunnah Wal Jama'ah, the path of the Prophet Muhammad (peace be upon him) and his companions, is considered the true and right path in Islam. It emphasizes following the Quran and the authentic Sunnah, as understood by the early generations of Muslims. This path is believed to lead to salvation and paradise. While other Islamic sects and schools of thought exist, Ahlussunnah believes that its understanding of Islam is the most accurate and complete, based on the teachings of the Prophet and his companions. It's important to remember that: * **Respect for Diversity:** Ahlussunnah encourages respectful dialogue and understanding with other Muslims, even if they hold different views.Unity and Brotherhood:.</p>
+							</div>
+							<div class="block-47-like d-flex align-items-center">
+								<button class="btn btn-primary me-2" onclick="incrementLikes(2)">
+									<i class="fa fa-thumbs-up"></i> Like
+								</button>
+								<span id="likeCount2">0</span> Likes
+							</div>
+						</div>
 					</div>
-
 				</div>
-
+	
 				<div class="col-md-6">
-
 					<div class="block-47 d-flex mb-5">
 						<div class="block-47-image">
-							<img src="images/person_3.jpg" alt="Image placeholder" class="img-fluid">
+							<img src="images/pexels-mikhail-nilov-8939040.jpg" alt="Image placeholder" class="img-fluid">
 						</div>
-						<blockquote class="block-47-quote">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-							<cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ Inc.</a></cite>
-						</blockquote>
+						<div class="block-47-content">
+							<blockquote class="block-47-quote">
+								<p>&ldquo;importance of Ahlussunnah wal Jama'ah&rdquo;</p>
+							</blockquote>
+							<div class="block-47-answer">
+								<p><strong>Answer:</strong> hlussunnah wal Jama'ah holds immense importance in Islam for several reasons: **1. Preservation of True Islam:** It represents the authentic understanding of Islam, based on the Quran and the Sunnah of Prophet Muhammad (peace be upon him), as understood by the early generations of Muslims. It safeguards the purity of the faith from distortions and innovations. **2. Unity and Harmony:** Ahlussunnah emphasizes unity and brotherhood among Muslims, promoting a sense of community and shared purpose. It encourages dialogue and understanding, discouraging division and sectarianism. **3. Comprehensive Guidance:** It provides a comprehensive framework for all aspects of life, from faith and worship to social interactions and ethical conduct. It offers clear guidance on how to live a righteous life, pleasing to Allah. **4. Stability and Security:** By adhering to the established teachings of the Prophet and his companions, Ahlussunnah promotes stability and security within the Muslim community. It provides a solid foundation for moral and spiritual growth. **5. Path to Salvation,</p>
+							</div>
+							<div class="block-47-like d-flex align-items-center">
+								<button class="btn btn-primary me-2" onclick="incrementLikes(3)">
+									<i class="fa fa-thumbs-up"></i> Like
+								</button>
+								<span id="likeCount3">0</span> Likes
+							</div>
+						</div>
 					</div>
-
 				</div>
+	
 				<div class="col-md-6">
-
 					<div class="block-47 d-flex mb-5">
 						<div class="block-47-image">
-							<img src="images/person_4.jpg" alt="Image placeholder" class="img-fluid">
+							<img src="images/base.jpg" alt="Image placeholder" class="img-fluid">
 						</div>
-						<blockquote class="block-47-quote">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-							<cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ Inc.</a></cite>
-						</blockquote>
+						<div class="block-47-content">
+							<blockquote class="block-47-quote">
+								<p>&ldquo;what is the diffrence between Shia and Ahlul Sunnah Wal Jama'ah?&rdquo;</p>
+							</blockquote>
+							<div class="block-47-answer">
+								<p><strong>Answer:</strong> The main difference between Shia and Ahlul Sunnah Wal Jama'ah lies in their understanding of leadership and succession after the Prophet Muhammad (peace be upon him). **Ahlul Sunnah Wal Jama'ah** believes that the Prophet Muhammad did not explicitly designate a successor, and the community (Sahabah) chose Abu Bakr as the first Caliph through consensus. They believe in the legitimacy of the first four Caliphs (Abu Bakr, Umar, Uthman, and Ali) and follow the consensus of the early generations of Muslims (Salaf). **Shia Muslims** believe that Ali ibn Abi Talib, the Prophet's cousin and son-in-law, was divinely appointed as the rightful successor. They believe that the Imams, descendants of Ali, are divinely appointed leaders who possess special knowledge and authority. Here are some key differences: **Leadership and Succession.Shia:** Believe in the divinely appointed Imams, starting with Ali ibn Abi Talib, as the rightful successors to the Prophet. </p>
+							</div>
+							<div class="block-47-like d-flex align-items-center">
+								<button class="btn btn-primary me-2" onclick="incrementLikes(4)">
+									<i class="fa fa-thumbs-up"></i> Like
+								</button>
+								<span id="likeCount4">0</span> Likes
+							</div>
+						</div>
 					</div>
-
 				</div>
-
+	
 			</div>
 		</div>
 	</section>
+	
 
 
 	<section class="site-section pb-0"  id="section-services">
@@ -698,10 +760,7 @@ Abu Tha‘labah al-Khashani (may Allah be pleased with him) reported that the Pr
 			</div>
 		</div>
 	</section>
-	<section>
-		<iframe src="/bot/public/bot.html" width="100%" height="500px" frameborder="0"></iframe>
-	</section>
-
+	
 
 	<footer class="site-footer">
 		<div class="container">
